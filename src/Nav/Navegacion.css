@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 101;
+}
+
+.container p {
+    color: white;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+/*  Border */
+.border-aparence {
+    border-bottom: 1px solid #111;
+}
+
+/* Nav Bar */
+.nav-bar {
+    display: flex;
+    width: 450px;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.nav-bar a {
+    display: flex;
+    align-items: center;
+    transition: .2s ease-in-out;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.nav-bar a:hover {
+    color: hsl(55, 100%, 48%)
+}

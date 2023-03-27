@@ -1,0 +1,36 @@
+.home {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home h1 {
+    font-family: system-ui;
+    font-size: 60px;
+    margin: 0;
+    color: white;
+}
+
+.home p {
+    font-size: 16px;
+    margin: 0;
+    text-transform: none;
+    letter-spacing: normal;
+    color: white;
+
+}
+
+.home a {
+    background-color: green;
+    border: 1px solid green;
+    text-align: center;
+    width: 20%;
+    padding: 15px;
+}
+
+.home a:hover {
+    background-color: #222;
+    border: 1px solid green;
+}

@@ -1,0 +1,51 @@
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 200px 0;
+}
+
+/* Img */
+.perfil {
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    /* filter: invert(91%) sepia(2%) saturate(100%) hue-rotate(348deg) brightness(94%) contrast(88%); */
+    z-index: 1;
+}
+
+
+/* About */
+.main-about {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 300px;
+}
+
+.img-about-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.about-img {
+    height: 500px;
+}
+
+.main-contact {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.thanks-img {
+    height: 500px;
+    margin-left: 60px;
+}

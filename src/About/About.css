@@ -1,0 +1,39 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: #e8eddf;
+}
+
+.about-container h1 {
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgba(189, 233, 10, 0.992);
+}
+
+.about-container p {
+    margin-top: 0;
+}
+
+.about-container h3 {
+    text-align: center;
+}
+
+.svg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+}
+
+.svg img {
+    width: 50px;
+}
+
+.svg li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
